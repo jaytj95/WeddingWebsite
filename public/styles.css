@@ -13,7 +13,12 @@ body {
     text-align: center;
     flex-direction: column;
 }
-
+#name {
+    font-size: 42px;
+}
+#rsvp {
+    font-size: 36px;
+}
 .header-svg {
     width: 150px;
     height: auto;
@@ -58,7 +63,7 @@ h3 {
 }
 
 .date {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .location {
