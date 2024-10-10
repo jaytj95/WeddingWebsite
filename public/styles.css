@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: 'Playfair Display', serif;
-    color: #B0C3DD;
+    color: #9da85a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,23 +19,31 @@ body {
     height: auto;
     margin-bottom: 10px;
 }
+.image, #church{
+    filter: hue-rotate(-146deg) saturate(140%) brightness(95%);
+}
 
 .container {
     padding: 10px;
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 52px;
     margin: 10px 0;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 24px;
     margin: 10px 0;
 }
 
 .info-header {
-    font-size: 32px;
+    font-size: 26px;
     margin: 10px 0;
     color: #00ff00;
 }
@@ -50,21 +58,21 @@ h2 {
 }
 
 .date {
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .location {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
 .countdown {
-    font-size: 20px;
+    font-size: 18px;
     color: #ccc;
 }
 
 .header-svg path {
-    fill: #B0C3DD;
+    fill: #9da85a;
 }
 
 p {
