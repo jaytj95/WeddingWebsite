@@ -2,7 +2,7 @@ jQuery( document ).ready( function( $ ) {
     particlesJS('particles-js', {
         "particles": {
             "number": {
-                "value": 75,
+                "value": 15,
                 "density": {
                     "enable": false,
                     "value_area": 1500.2328774690454
