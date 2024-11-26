@@ -430,7 +430,7 @@ a {
     }
 }
 
-#TopSights, #Shopping, #Restaurants, #Hotel {
+#TopSights, #Shopping, #Restaurants {
     text-align: start;
     /* justify-content: flex-start; */
     /* overflow-y: auto; */
